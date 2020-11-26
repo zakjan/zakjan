@@ -1,0 +1,23 @@
+{
+  "name": "zakjan",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "Jan Zak <zj@zakjan.cz>",
+  "repository": "github:zakjan/zakjan",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && cp -r src dist && NODE_ENV=production postcss src/styles.css -o dist/styles.css",
+    "dev": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^2.0.1"
+  }
+}

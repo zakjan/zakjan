@@ -4,56 +4,594 @@
   <meta charset="utf-8">
   <title>Jan Zak</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="styles.css" rel="stylesheet">
+  <link href="/styles.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-700">
-  <div class="container mx-auto py-4 text-center">
-    <img class="inline-block h-48 w-48 rounded-full border-solid border-4 border-white" src="/assets/photo.jpg" srcset="/assets/photo@2x.jpg 2x" alt="Jan Zak">
-    <h1 class="text-5xl leading-normal tracking-tight font-extrabold text-gray-900">Jan Zak</h1>
-    <p>
-      Freelance Data Visualization Engineer / Consultant
-      <br>
-      High-performance Geospatial and Node-Link Graph Visualizations
-    </p>
-
-    <div class="mt-6">
-      <h2 class="text-lg font-medium text-gray-900 mb-2">
+<body>
+  <main>
+    <header>
+      <picture>
+        <source srcset="/assets/photo.webp 1x, /assets/photo@2x.webp 2x" type="image/webp" />
+        <img src="/assets/photo.jpg" srcset="/assets/photo@2x.jpg 2x" alt="Jan Zak" class="header-image">
+      </picture>
+      <h1>Jan Zak</h1>
+      <p>
+        Freelance Data Visualization Engineer / Consultant
+        <br>
+        High-performance Geospatial and Node-Link Graph Visualizations
+      </p>
+      <p>
+        <a href="https://medium.com/@zakjan">Medium</a>
+        ·
+        <a href="https://twitter.com/zakjan">Twitter</a>
+        ·
+        <a href="https://github.com/zakjan">GitHub</a>
+        ·
+        <a href="https://www.npmjs.com/~zakjan">npm</a>
+        ·
+        <a href="https://observablehq.com/@zakjan">Observable</a>
+        ·
+        <a href="https://www.youtube.com/channel/UCPc_3HdOl_hrzO0lieB_YtA">YouTube</a>
+        <br>
+        <a href="https://stackoverflow.com/users/1823988/zakjan">StackOverflow</a>
+        ·
+        <a href="https://community.neo4j.com/u/zakjan">Neo4j Community</a>
+        ·
+        <a href="https://www.linkedin.com/in/zakjancz/">LinkedIn</a>
+        ·
+        <a href="https://search.maven.org/search?q=g:cz.zakjan">Maven Central</a>
+      </p>
+      <h2>
         Get in touch
       </h2>
       <p>
-        E-mail: <a href="mailto:zj@zakjan.cz" class="text-orange-700 hover:text-orange-800">zj@zakjan.cz</a>
-        <br>
-        Schedule a call: <a href="https://calendly.com/zakjan" class="text-orange-700 hover:text-orange-800">Calendly</a>
+        <span class="relative z-0 inline-flex shadow-sm rounded-md">
+          <a href="mailto:zj@zakjan.cz" class="relative inline-flex items-center px-6 py-3 rounded-l-md border border-gray-300 bg-white text-base font-medium text-gray-700 hover:text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-orange-500">
+            E-mail
+          </a>
+          <a href="https://calendly.com/zakjan" class="-ml-px relative inline-flex items-center px-6 py-3 rounded-r-md border border-gray-300 bg-white text-base font-medium text-gray-700 hover:text-gray-700 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-orange-500">
+            Schedule a call
+          </a>
+        </span>
       </p>
-    </div>
+    </header>
 
-    <div class="mt-6">
-      <h2 class="text-lg font-medium text-gray-900 mb-2">
-        Profiles
+    <section>
+      <h2>
+        Posts
       </h2>
-      <p>
-        <a href="https://medium.com/@zakjan" class="text-orange-700 hover:text-orange-800">Medium</a>
-        <br>
-        <a href="https://twitter.com/zakjan" class="text-orange-700 hover:text-orange-800">Twitter</a>
-        <br>
-        <a href="https://github.com/zakjan" class="text-orange-700 hover:text-orange-800">GitHub</a>
-        <br>
-        <a href="https://www.npmjs.com/~zakjan" class="text-orange-700 hover:text-orange-800">npm</a>
-        <br>
-        <a href="https://search.maven.org/search?q=g:cz.zakjan" class="text-orange-700 hover:text-orange-800">Maven Central</a>
-        <br>
-        <a href="https://www.youtube.com/channel/UCPc_3HdOl_hrzO0lieB_YtA" class="text-orange-700 hover:text-orange-800">YouTube</a>
-        <br>
-        <a href="https://observablehq.com/@zakjan" class="text-orange-700 hover:text-orange-800">Observable</a>
-        <br>
-        <a href="https://stackoverflow.com/users/1823988/zakjan" class="text-orange-700 hover:text-orange-800">StackOverflow</a>
-        <br>
-        <a href="https://www.linkedin.com/in/zakjancz/" class="text-orange-700 hover:text-orange-800">LinkedIn</a>
-        <br>
-        <a href="https://community.neo4j.com/u/zakjan" class="text-orange-700 hover:text-orange-800">Neo4j Community</a>
-      </p>
-    </div>
-  </div>
+      <div class="max-w-lg mx-auto grid gap-8 lg:grid-cols-3 lg:max-w-none">
+        <a href="https://medium.com/nightingale/styling-ocean-depth-data-in-mapbox-studio-c03f71ba6a2a" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/posts/20200527-styling-ocean-depth-data-in-mapbox-studio.webp 1x, /assets/posts/20200527-styling-ocean-depth-data-in-mapbox-studio@2x.webp 2x" type="image/webp" />
+              <img src="/assets/posts/20200527-styling-ocean-depth-data-in-mapbox-studio.png" srcset="/assets/posts/20200527-styling-ocean-depth-data-in-mapbox-studio@2x.png 2x" alt="Styling ocean depth data in Mapbox Studio">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Styling ocean depth data in Mapbox Studio
+              </h3>
+              <p class="text-base text-gray-500">
+                Oceans deserve more attention and a better visual look than just a solid blue color
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Geospatial
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Mapbox Studio
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                QGIS
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://medium.com/neo4j/scale-up-your-d3-graph-visualisation-part-2-2726a57301ec" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/posts/20200319-scale-up-your-d3-graph-visualisation-part-2.webp 1x, /assets/posts/20200319-scale-up-your-d3-graph-visualisation-part-2@2x.webp 2x" type="image/webp" />
+              <img src="/assets/posts/20200319-scale-up-your-d3-graph-visualisation-part-2.jpg" src="/assets/posts/20200319-scale-up-your-d3-graph-visualisation-part-2@2x.jpg" alt="Scale up your D3 graph visualisation, part 2">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Scale up your D3 graph visualisation, part 2
+              </h3>
+              <p class="text-base text-gray-500">
+                WebWorker layout and PIXI.js rendering performance improvements
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                PIXI.js
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://medium.com/neo4j/scale-up-your-d3-graph-visualisation-webgl-canvas-with-pixi-js-63f119d96a28" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/posts/20190919-scale-up-your-d3-graph-visualisation.webp 1x, /assets/posts/20190919-scale-up-your-d3-graph-visualisation@2x.webp 2x" type="image/webp" />
+              <img src="/assets/posts/20190919-scale-up-your-d3-graph-visualisation.jpg" src="/assets/posts/20190919-scale-up-your-d3-graph-visualisation@2x.jpg" alt="Scale up your D3 graph visualisation">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Scale up your D3 graph visualisation
+              </h3>
+              <p class="text-base text-gray-500">
+                WebGL & Canvas with PIXI.js
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                PIXI.js
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://observablehq.com/@zakjan/partial-edge-drawing" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/posts/20190918-partial-edge-drawing.webp 1x, /assets/posts/20190918-partial-edge-drawing@2x.webp 2x" type="image/webp" />
+              <img src="/assets/posts/20190918-partial-edge-drawing.png" src="/assets/posts/20190918-partial-edge-drawing@2x.png" alt="Partial edge drawing">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Partial edge drawing
+              </h3>
+              <p class="text-base text-gray-500">
+                Edge crossings and the resulting visual clutter are hidden in the undrawn parts of the edges
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                D3
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://graphaware.com/neo4j/2019/04/26/avoid-cycles-in-cypher-queries.html" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/posts/20190426-avoid-cycles-in-cypher-queries.webp 1x, /assets/posts/20190426-avoid-cycles-in-cypher-queries@2x.webp 2x" type="image/webp" />
+              <img src="/assets/posts/20190426-avoid-cycles-in-cypher-queries.png" srcset="/assets/posts/20190426-avoid-cycles-in-cypher-queries@2x.png 2x" alt="Avoid cycles in Cypher queries">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Avoid cycles in Cypher queries
+              </h3>
+              <p class="text-base text-gray-500">
+                Cypher query that matches cycles can cause unpleasant surprises
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Neo4j
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Cypher
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://graphaware.com/analytics/2019/01/28/speaker-identification-meets-graphs.html" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/posts/20190128-speaker-identification-meets-graphs.webp 1x, /assets/posts/20190128-speaker-identification-meets-graphs@2x.webp 2x" type="image/webp" />
+              <img src="/assets/posts/20190128-speaker-identification-meets-graphs.png" srcset="/assets/posts/20190128-speaker-identification-meets-graphs@2x.png 2x" alt="Speaker identification meets graphs">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Speaker identification meets graphs
+              </h3>
+              <p class="text-base text-gray-500">
+                Detecting unique speakers across audio recordings
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Community Detection
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Cytoscape.js
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Open-source
+      </h2>
+      <div class="max-w-lg mx-auto grid gap-8 lg:grid-cols-3 lg:max-w-none">
+        <a href="https://github.com/zakjan/leaflet-lasso" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/opensource/leaflet-lasso.webp 1x, /assets/opensource/leaflet-lasso@2x.webp 2x" type="image/webp" />
+              <img src="/assets/opensource/leaflet-lasso.jpg" srcset="/assets/opensource/leaflet-lasso@2x.jpg 2x" alt="leaflet-lasso">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                leaflet-lasso
+              </h3>
+              <p class="text-base text-gray-500">
+                Lasso selection plugin for Leaflet
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Geospatial
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Leaflet
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/zakjan/pixi-graph" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/opensource/pixi-graph.webp 1x, /assets/opensource/pixi-graph@2x.webp 2x" type="image/webp" />
+              <img src="/assets/opensource/pixi-graph.jpg" srcset="/assets/opensource/pixi-graph@2x.jpg 2x" alt="pixi-graph">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                pixi-graph
+              </h3>
+              <p class="text-base text-gray-500">
+                Graph visualization library using PIXI.js and Graphology
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                PIXI.js
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Graphology
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/zakjan/cytoscape-lasso" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/opensource/cytoscape-lasso.webp 1x, /assets/opensource/cytoscape-lasso@2x.webp 2x" type="image/webp" />
+              <img src="/assets/opensource/cytoscape-lasso.jpg" srcset="/assets/opensource/cytoscape-lasso@2x.jpg 2x" alt="cytoscape-lasso">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                cytoscape-lasso
+              </h3>
+              <p class="text-base text-gray-500">
+                Lasso selection plugin for Cytoscape
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Cytoscape.js
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/zakjan/cytoscape-mapbox-gl" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/opensource/cytoscape-mapbox-gl.webp 1x, /assets/opensource/cytoscape-mapbox-gl@2x.webp 2x" type="image/webp" />
+              <img src="/assets/opensource/cytoscape-mapbox-gl.jpg" srcset="/assets/opensource/cytoscape-mapbox-gl@2x.jpg 2x" alt="cytoscape-mapbox-gl">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                cytoscape-mapbox-gl
+              </h3>
+              <p class="text-base text-gray-500">
+                Mapbox GL plugin for Cytoscape
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Geospatial
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Cytoscape.js
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Mapbox GL JS
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/zakjan/mapbox-gl-draw-geodesic" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/opensource/mapbox-gl-draw-geodesic.webp 1x, /assets/opensource/mapbox-gl-draw-geodesic@2x.webp 2x" type="image/webp" />
+              <img src="/assets/opensource/mapbox-gl-draw-geodesic.jpg" srcset="/assets/opensource/mapbox-gl-draw-geodesic@2x.jpg 2x" alt="mapbox-gl-draw-geodesic">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                mapbox-gl-draw-geodesic
+              </h3>
+              <p class="text-base text-gray-500">
+                Geodesic plugin for Mapbox GL Draw
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Geospatial
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Mapbox GL JS
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/zakjan/mapbox-gl-draw-waypoint" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/opensource/mapbox-gl-draw-waypoint.webp 1x, /assets/opensource/mapbox-gl-draw-waypoint@2x.webp 2x" type="image/webp" />
+              <img src="/assets/opensource/mapbox-gl-draw-waypoint.jpg" srcset="/assets/opensource/mapbox-gl-draw-waypoint@2x.jpg 2x" alt="mapbox-gl-draw-waypoint">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                mapbox-gl-draw-waypoint
+              </h3>
+              <p class="text-base text-gray-500">
+                Waypoint plugin for Mapbox GL Draw
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Geospatial
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Mapbox GL JS
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/zakjan/cert-chain-resolver" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/opensource/cert-chain-resolver.webp 1x, /assets/opensource/cert-chain-resolver@2x.webp 2x" type="image/webp" />
+              <img src="/assets/opensource/cert-chain-resolver.jpg" srcset="/assets/opensource/cert-chain-resolver@2x.jpg 2x" alt="cert-chain-resolver">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                cert-chain-resolver
+              </h3>
+              <p class="text-base text-gray-500">
+                SSL certificate chain resolver
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                SSL
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/zakjan/objectpath" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/opensource/objectpath.webp 1x, /assets/opensource/objectpath@2x.webp 2x" type="image/webp" />
+              <img src="/assets/opensource/objectpath.png" srcset="/assets/opensource/objectpath@2x.png 2x" alt="objectpath">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                objectpath
+              </h3>
+              <p class="text-base text-gray-500">
+                Expression language for querying JSON objects, based on formal ANTLR4 grammar
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                DSL
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Projects
+      </h2>
+      <div class="max-w-lg mx-auto grid gap-8 lg:grid-cols-3 lg:max-w-none">
+        <a href="https://www.youtube.com/watch?v=Z-Zw-gFjALc&list=PL2nsaPF_AlPBellKc0XKIcZBhdAGGsA2_" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/projects/weather-layers-for-mapbox-gl-js.webp 1x, /assets/projects/weather-layers-for-mapbox-gl-js@2x.webp 2x" type="image/webp" />
+              <img src="/assets/projects/weather-layers-for-mapbox-gl-js.jpg" srcset="/assets/projects/weather-layers-for-mapbox-gl-js@2x.jpg 2x" alt="Weather layers for Mapbox">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Weather layers for Mapbox GL JS
+              </h3>
+              <p class="text-base text-gray-500 mb-3">
+                Particle animation and color overlay custom WebGL layers
+              </p>
+              <p class="text-base text-gray-500">
+                Data: GFS, OSCAR, OSTIA, WAVEWATCH
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Geospatial
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Mapbox GL JS
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                WebGL
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                GDAL
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=XdajFC2V5NQ" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/projects/climate-layers-for-arcgis-js.webp 1x, /assets/projects/climate-layers-for-arcgis-js@2x.webp 2x" type="image/webp" />
+              <img src="/assets/projects/climate-layers-for-arcgis-js.jpg" srcset="/assets/projects/climate-layers-for-arcgis-js@2x.jpg 2x" alt="Virtual Gaia">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Climate layers for ArcGIS JS
+              </h3>
+              <p class="text-base text-gray-500 mb-3">
+                Color overlay and bioregion vector layers
+              </p>
+              <p class="text-base text-gray-500">
+                Data: GFS, CAMS, Natural Earth, OneEarth
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Geospatial
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                ArcGIS JS
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                GeoServer
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                GDAL
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="javascript:void(0)" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/projects/subsea-oil-well-path.webp 1x, /assets/projects/subsea-oil-well-path@2x.webp 2x" type="image/webp" />
+              <img src="/assets/projects/subsea-oil-well-path.jpg" srcset="/assets/projects/subsea-oil-well-path@2x.jpg 2x" alt="Oil well path">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Sub-sea oil well path
+              </h3>
+              <p class="text-base text-gray-500 mb-3">
+                Interactive 3D visualization of sub-sea oil well path
+              </p>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Geospatial
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Three.js
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=w-XE-K4MF1g" class="flex flex-col rounded-lg shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+          <div class="flex-shrink-0 aspect-w-2 aspect-h-1">
+            <picture>
+              <source srcset="/assets/projects/tableau-drill-down-extension-with-yfiles.webp 1x, /assets/projects/tableau-drill-down-extension-with-yfiles@2x.webp 2x" type="image/webp" />
+              <img src="/assets/projects/tableau-drill-down-extension-with-yfiles.png" srcset="/assets/projects/tableau-drill-down-extension-with-yfiles@2x.png 2x" alt="Tableau drill down extension with yFiles">
+            </picture>
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-medium text-gray-900 mb-3">
+                Tableau drill down extension with yFiles
+              </h3>
+            </div>
+            <div class="mt-6">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+                Graph
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                Tableau
+              </span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                yFiles
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113550861-2"></script>

@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-700;
+}
+
+.header-image {
+  @apply inline-block h-48 w-48 rounded-full border-solid border-4 border-white mb-8;
+}
+
+main {
+  @apply container mx-auto py-8 text-center;
+}
+
+header, section {
+  @apply mb-16;
+}
+
+h1 {
+  @apply text-5xl tracking-tight font-extrabold text-gray-900 mb-8;
+}
+
+h2 {
+  @apply text-2xl font-medium text-gray-900 mb-8;
+}
+
+p {
+  @apply mb-8;
+}
+
+a {
+  @apply text-orange-700 hover:text-orange-800;
+}
